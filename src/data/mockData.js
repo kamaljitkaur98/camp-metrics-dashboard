@@ -135,7 +135,7 @@ export const mockDataContacts = [
   },
 ];
 
-export const mockDataInvoices = [
+export const mockDataSpends = [
   {
     id: 1,
     name: "Jon Snow",

@@ -5,8 +5,9 @@ import { Routes, Route } from "react-router-dom";
 import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Campaign from "./scenes/campaign";
-// import Contacts from "./scenes/global/contacts";
-// import Invoices from "./scenes/global/invoices";
+import Contacts from "./scenes/contacts";
+
+import Spends from "./scenes/spends";
 // import Bar from "./scenes/global/bar";
 // import Form from "./scenes/global/form";
 // import Line from "./scenes/global/line";
@@ -34,9 +35,9 @@ function App() {
               <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/campaigns" element={<Campaign />} />
-                {/* <Route path="/contacts" element={<Contacts />} />
-                <Route path="/invoices" element={<Invoices />} />
-                <Route path="/form" element={<Form />} />
+                <Route path="/contacts" element={<Contacts />} />
+                <Route path="/spends" element={<Spends />} />
+                {/* <Route path="/form" element={<Form />} />
                 <Route path="/bar" element={<Bar />} />
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/line" element={<Line />} />
