@@ -12,7 +12,7 @@ import Spends from "./scenes/spends";
 import Form from "./scenes/form";
 // import Line from "./scenes/global/line";
 // import Pie from "./scenes/global/pie";
-// import FAQ from "./scenes/global/faq";
+import FAQ from "./scenes/faq";
 // import Geography from "./scenes/global/geography";
 
 import Dashboard from "./scenes/dashboard"
@@ -39,10 +39,11 @@ function App() {
                 <Route path="/spends" element={<Spends />} />
                  <Route path="/form" element={<Form />} />
                  <Route path="/calendar" element={<Calendar />} />
+                 <Route path="/faq" element={<FAQ />} />
                 {/* <Route path="/bar" element={<Bar />} />
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/line" element={<Line />} />
-                <Route path="/faq" element={<FAQ />} />
+                
                 <Route path="/geography" element={<Geography />} />
                 <Route path="/calendar" element={<Calendar />} /> */}
               </Routes>
