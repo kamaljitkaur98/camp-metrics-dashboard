@@ -16,7 +16,7 @@ import Form from "./scenes/form";
 // import Geography from "./scenes/global/geography";
 
 import Dashboard from "./scenes/dashboard"
-// import Dashboard from "./scenes/Calendar"
+import Calendar from "./scenes/calendar"
 
 
 function App() {
@@ -38,6 +38,7 @@ function App() {
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/spends" element={<Spends />} />
                  <Route path="/form" element={<Form />} />
+                 <Route path="/calendar" element={<Calendar />} />
                 {/* <Route path="/bar" element={<Bar />} />
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/line" element={<Line />} />
